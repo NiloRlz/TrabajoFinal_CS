@@ -8,15 +8,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using Capa_Entidad;
+using Capa_Registro;
 using Capa_Negocio;
 
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        ClassEntidad objent = new ClassEntidad();
-        ClassNegocio objneg = new ClassNegocio();
+        ClassRegistro objent = new ClassRegistro();
+        ClassListEstu objneg = new ClassListEstu();
         public Form1()
         {
             InitializeComponent();
@@ -141,7 +141,7 @@ namespace WindowsFormsApp1
 		{
 			if (txtcodigo.Text == "")
 			{
-				if (MessageBox.Show("¿Deseas registrar a " + txtnombre.Text + "?", "Mensaje",
+				if (MessageBox.Show("¿QUIERE REGISTRAR A " + txtnombre.Text + "?", "Mensaje",
 					MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
 				{
 					mantenimiento("1");

@@ -22,3 +22,9 @@ C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.cspr
 C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
 C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.dll
 C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\USUARIO\Desktop\TrabajoFinal_CS\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\USUARIO\Desktop\TrabajoFinal_CS\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\USUARIO\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.AssemblyReference.cache
+C:\Users\USUARIO\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\USUARIO\Desktop\TrabajoFinal_CS\Capa_Entidad\obj\Debug\Capa_Entidad.pdb

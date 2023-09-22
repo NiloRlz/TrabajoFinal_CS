@@ -81,13 +81,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Capa_Entidad\Capa_Entidad.csproj">
+    <ProjectReference Include="..\Capa_Entidad\Capa_Registro.csproj">
       <Project>{5cd83971-20ef-42cb-9eba-7afd703f38a4}</Project>
-      <Name>Capa_Entidad</Name>
+      <Name>Capa_Registro</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Capa_Negocio\Capa_Negocio.csproj">
+    <ProjectReference Include="..\Capa_Negocio\Capa_ListEstu.csproj">
       <Project>{0df24e1d-ee3a-4fe9-97a1-7a7a230427a3}</Project>
-      <Name>Capa_Negocio</Name>
+      <Name>Capa_ListEstu</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

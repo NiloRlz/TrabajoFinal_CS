@@ -1,0 +1,11 @@
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\bin\Debug\Capa_Negocio.dll
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\bin\Debug\Capa_Negocio.pdb
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\bin\Debug\Capa_Datos.dll
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\bin\Debug\Capa_Entidad.dll
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\bin\Debug\Capa_Datos.pdb
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\bin\Debug\Capa_Entidad.pdb
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\obj\Debug\Capa_ListEstu.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\obj\Debug\Capa_ListEstu.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\obj\Debug\Capa_ListEstu.csproj.CopyComplete
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\obj\Debug\Capa_Negocio.dll
+C:\Users\Alumno\Desktop\TF_copyCS\Capa_Negocio\obj\Debug\Capa_Negocio.pdb

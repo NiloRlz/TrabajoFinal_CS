@@ -52,12 +52,11 @@
 			this.pictureBox3 = new System.Windows.Forms.PictureBox();
 			this.printDocument1 = new System.Drawing.Printing.PrintDocument();
 			this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
+			this.button2 = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
 			this.pictureBox4 = new System.Windows.Forms.PictureBox();
-			this.listaPrint = new System.Windows.Forms.Panel();
-			this.button2 = new System.Windows.Forms.Button();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
 			this.groupBox1.SuspendLayout();
@@ -66,7 +65,6 @@
 			this.groupBox3.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-			this.listaPrint.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// groupBox2
@@ -142,7 +140,7 @@
 			// 
 			// txtedad
 			// 
-			this.txtedad.Location = new System.Drawing.Point(119, 110);
+			this.txtedad.Location = new System.Drawing.Point(119, 116);
 			this.txtedad.Name = "txtedad";
 			this.txtedad.Size = new System.Drawing.Size(67, 26);
 			this.txtedad.TabIndex = 6;
@@ -158,7 +156,7 @@
 			// 
 			this.txtcodigo.BackColor = System.Drawing.SystemColors.ScrollBar;
 			this.txtcodigo.Enabled = false;
-			this.txtcodigo.Location = new System.Drawing.Point(297, 110);
+			this.txtcodigo.Location = new System.Drawing.Point(297, 119);
 			this.txtcodigo.Name = "txtcodigo";
 			this.txtcodigo.Size = new System.Drawing.Size(67, 26);
 			this.txtcodigo.TabIndex = 4;
@@ -193,7 +191,7 @@
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-			this.label2.Location = new System.Drawing.Point(57, 116);
+			this.label2.Location = new System.Drawing.Point(57, 122);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(56, 20);
 			this.label2.TabIndex = 1;
@@ -205,7 +203,7 @@
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-			this.label1.Location = new System.Drawing.Point(221, 116);
+			this.label1.Location = new System.Drawing.Point(221, 125);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(70, 20);
 			this.label1.TabIndex = 0;
@@ -302,12 +300,26 @@
 			this.printPreviewDialog1.Name = "printPreviewDialog1";
 			this.printPreviewDialog1.Visible = false;
 			// 
+			// button2
+			// 
+			this.button2.BackColor = System.Drawing.SystemColors.WindowFrame;
+			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+			this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+			this.button2.Location = new System.Drawing.Point(472, 87);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(237, 211);
+			this.button2.TabIndex = 20;
+			this.button2.Text = "button2";
+			this.button2.UseVisualStyleBackColor = false;
+			this.button2.Click += new System.EventHandler(this.button2_Click);
+			// 
 			// button1
 			// 
 			this.button1.BackColor = System.Drawing.Color.Goldenrod;
 			this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
 			this.button1.Font = new System.Drawing.Font("Microsoft JhengHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.button1.Location = new System.Drawing.Point(0, 257);
+			this.button1.Location = new System.Drawing.Point(45, 648);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(110, 39);
 			this.button1.TabIndex = 18;
@@ -322,7 +334,7 @@
 			this.groupBox3.Controls.Add(this.dataGridView1);
 			this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-			this.groupBox3.Location = new System.Drawing.Point(0, 3);
+			this.groupBox3.Location = new System.Drawing.Point(45, 394);
 			this.groupBox3.Name = "groupBox3";
 			this.groupBox3.Size = new System.Drawing.Size(664, 248);
 			this.groupBox3.TabIndex = 13;
@@ -355,38 +367,15 @@
 			this.pictureBox4.TabIndex = 1;
 			this.pictureBox4.TabStop = false;
 			// 
-			// listaPrint
-			// 
-			this.listaPrint.Controls.Add(this.groupBox3);
-			this.listaPrint.Controls.Add(this.button1);
-			this.listaPrint.Location = new System.Drawing.Point(45, 380);
-			this.listaPrint.Name = "listaPrint";
-			this.listaPrint.Size = new System.Drawing.Size(702, 309);
-			this.listaPrint.TabIndex = 19;
-			this.listaPrint.Paint += new System.Windows.Forms.PaintEventHandler(this.listaPrint_Paint);
-			// 
-			// button2
-			// 
-			this.button2.BackColor = System.Drawing.SystemColors.WindowFrame;
-			this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-			this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-			this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-			this.button2.Location = new System.Drawing.Point(472, 87);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(237, 211);
-			this.button2.TabIndex = 20;
-			this.button2.Text = "button2";
-			this.button2.UseVisualStyleBackColor = false;
-			this.button2.Click += new System.EventHandler(this.button2_Click);
-			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.WindowFrame;
 			this.ClientSize = new System.Drawing.Size(759, 699);
+			this.Controls.Add(this.groupBox3);
+			this.Controls.Add(this.button1);
 			this.Controls.Add(this.button2);
-			this.Controls.Add(this.listaPrint);
 			this.Controls.Add(this.pictureBox3);
 			this.Controls.Add(this.pictureBox1);
 			this.Controls.Add(this.label5);
@@ -408,7 +397,6 @@
 			this.groupBox3.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-			this.listaPrint.ResumeLayout(false);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -438,12 +426,11 @@
         private System.Windows.Forms.PictureBox pictureBox3;
 		private System.Drawing.Printing.PrintDocument printDocument1;
 		private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
+		private System.Windows.Forms.Button button2;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.GroupBox groupBox3;
 		private System.Windows.Forms.PictureBox pictureBox4;
 		private System.Windows.Forms.DataGridView dataGridView1;
-		private System.Windows.Forms.Panel listaPrint;
-		private System.Windows.Forms.Button button2;
 	}
 }
 

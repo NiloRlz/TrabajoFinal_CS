@@ -34,3 +34,12 @@ C:\Users\USUARIO\Desktop\Registro_Estudiantes\Capa_Datos\obj\Debug\Capa_Datos.cs
 C:\Users\USUARIO\Desktop\Registro_Estudiantes\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
 C:\Users\USUARIO\Desktop\Registro_Estudiantes\Capa_Datos\obj\Debug\Capa_Datos.dll
 C:\Users\USUARIO\Desktop\Registro_Estudiantes\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\obj\Debug\Capa_Datos.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\Alumno\Desktop\TrabajoFinal_CS\Capa_Datos\obj\Debug\Capa_Datos.pdb

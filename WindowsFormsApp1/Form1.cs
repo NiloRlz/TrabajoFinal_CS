@@ -117,6 +117,41 @@ namespace WindowsFormsApp1
             txttelefono.Text = dataGridView1[3, fila].Value.ToString();
         }
 
+		private void ImprimirLista(object sender, System.Drawing.Printing.PrintPageEventArgs e)
+		{
 
-    }
+
+			e.Graphics.DrawImage(bmp, 0, 0);
+		}
+        Bitmap bmp;
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+            Graphics g = this.CreateGraphics();
+            bmp = new Bitmap(this.Size.Width, this.Size.Height, g);
+            Graphics mg = Graphics.FromImage(bmp);
+            mg.CopyFromScreen(this.Location.X, this.Location.Y,0,0, this.Size);
+            printPreviewDialog1.ShowDialog();
+
+
+		}
+
+		private void listaPrint_Paint(object sender, PaintEventArgs e)
+		{
+			
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			if (txtcodigo.Text == "")
+			{
+				if (MessageBox.Show("¿Deseas registrar a " + txtnombre.Text + "?", "Mensaje",
+					MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
+				{
+					mantenimiento("1");
+					limpiar();
+				}
+			}
+		}
+	}
 }
